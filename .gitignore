@@ -1,0 +1,154 @@
+# ============================================
+# DEPENDENCIES
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# BUILD OUTPUTS
+# ============================================
+dist/
+dist-ssr/
+build/
+.out/
+.next/
+*.local
+
+# ============================================
+# ENVIRONMENT VARIABLES
+# ============================================
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.env.test
+.env*.local
+
+# ============================================
+# IDE AND EDITOR FILES
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================
+# OS GENERATED FILES
+# ============================================
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================================
+# LOGS
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ============================================
+# TESTING
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+.cache/
+.parcel-cache/
+
+# ============================================
+# MISCELLANEOUS
+# ============================================
+*.pem
+*.key
+*.cert
+*.tgz
+*.rar
+*.zip
+*.tar
+*.gz
+.DS_Store
+.cache
+.parcel-cache
+.turbo
+.vercel
+.netlify
+.history
+*.tsbuildinfo
+
+# ============================================
+# DEBUG FILES
+# ============================================
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# TYPINGS
+# ============================================
+*.d.ts.map
+*.d.ts
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ============================================
+# SECURITY FILES
+# ============================================
+*.p12
+*.pfx
+*.crt
+*.key
+*.csr
+
+# ============================================
+# CONFIGURATION FILES (Optional)
+# ============================================
+# Uncomment if you want to ignore these
+# .eslintrc.json
+# .prettierrc
+# .stylelintrc
+
+# ============================================
+# DOCKER
+# ============================================
+docker-compose.override.yml
+.docker/
+Dockerfile.dev
+
+# ============================================
+# ENVIRONMENT SPECIFIC
+# ============================================
+.vercel
+.netlify
+.heroku
+.railway
